@@ -201,6 +201,7 @@ while(position < anime.length ){
 
 document.write("<b>Utilizando DO WHILE</b> <br><br>");
 
+/*
 let pass= prompt("Ingrese su contraseña: bitBictia");
 let bd= "bitBictia";
 
@@ -213,7 +214,19 @@ if(pass== bd){
         pass= prompt("Contraseña incorrecta, vuelva a ingresarla: bitBictia");
     }while (pass !== bd);
 }
+*/
 
+
+
+/** TABLAS DE MULTIPLICAR DEL 1 AL 10 UTILIZANDO 2 CICLOS FOR */
+
+document.write("<div'><h1 style='color: purple'>TABLAS DE MULTIPLICAR DESDE 1 HASTA 10</h1></div>");
+for(let i= 1; i<=10; i++){
+    document.write("<hr>");
+    for(let j= 0; j<=10; j++){
+        document.write("<div style='margin: 0px 50px'>" + i + "X" + j + "=" + i*j + "</div>");
+    }
+}
 
 
 
